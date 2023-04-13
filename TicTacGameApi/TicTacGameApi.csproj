@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="DeserializationEntites\Новая папка\**" />
+    <Content Remove="DeserializationEntites\Новая папка\**" />
+    <EmbeddedResource Remove="DeserializationEntites\Новая папка\**" />
+    <None Remove="DeserializationEntites\Новая папка\**" />
+  </ItemGroup>
+
+</Project>
